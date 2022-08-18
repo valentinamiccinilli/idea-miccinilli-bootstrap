@@ -1,0 +1,238 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+
+/* header */
+
+header{
+    background-color: #BEDCDA;
+    padding: 10px;
+    /* display:felx; */
+}
+
+header li a{
+    color: #F1F2ED;
+    background-color: #353535;
+
+    font-size: 16px;
+    /* padding: 10px; */
+    text-decoration:none;
+
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header li{
+    /* display:inline-block; */
+    text-align:center;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    position: relative;
+}
+
+.boton_search{
+    background-color: #353535;
+    color: #F1F2ED;
+}
+
+nav{
+    /* position: relative;
+    bottom: 0px;
+    left: 670px; */
+}
+
+h1{
+    font-size: 30px;
+    /* margin-left: 20px;
+    margin-top: 0px; */
+    text-align: left;
+}
+
+.search{
+    text-align: center;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+
+/* Información / textos */
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #353535;
+}
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p{
+    font-size: 16px;
+    text-align: left;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+
+.caja_texto{
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    /* padding: 0px; */
+    /* margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px; */
+
+    /* display: inline-block;    */
+}
+
+.subt_centrado{
+    text-align: center;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
+.caja_centrada{
+    /* margin-bottom: 50px; */
+    background-color: #FCF6E8;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+
+.precio{
+    color:#2FAD1A ;
+}
+
+.info_wpp{
+    /* margin-left: 80px;
+    margin-bottom: 30px; */
+    background-color: #F6EEDA;
+}
+
+.info_mail{
+   margin-bottom: 20px;
+}
+
+/* formulario */
+
+.formulario{
+    /* margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 40px; */
+}
+
+form{
+    background-color: #FCF6E8;
+}
+
+.selec{
+    background-color: #F4EBD2;
+}
+
+.complet{
+    background-color: #F4EBD2;
+}
+
+.boton_enviar{
+    background-color: #353535;
+    color: #F4EBD2;
+}
+
+.dato-form{
+    /* margin-bottom: 10px; */
+}
+
+.titulo-form{
+    /* margin-bottom: 20px; */
+}
+
+/* imáganes */
+
+.logo__fcasa{
+    height: 157px;
+    width: 227px;
+}
+
+.logo__fminera{
+    height: 157px;
+    width: 227px;
+}
+
+.foto__carrusel__1{
+    height: 344px;
+    width: 470px;
+    margin-bottom: 20px;
+   
+}
+
+.logo-diatoland{
+    height: 100px;
+    width: 150px;
+    /* position: relative;
+    top: 70px; */
+}
+
+.foto__producto{
+    height: 226px;
+    width: 226px;
+
+    /*  aca no se como hacer para que las fotos no me pisen el texto del al lado. Corregiré esto con flexbox y grids*/
+    /* display: inline-block;
+    position: relative;
+    left: 750px;
+    bottom: 97px; */
+}
+
+.icono_wpp{
+    height: 70px;
+    width: 70px;
+}
+
+.icono_mail{
+    height: 50px;
+    width: 50px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #353535;
+    padding: 20px;
+}
+
+footer div{
+    /* display: inline-block; */
+    /* padding: 20px; */
+    /* margin: 20px; */
+    text-align: left;
+
+    /* position: relative;
+    left: 450px; */
+}
+
+.op_footer{
+    background-color: #353535;
+    color: #DFF2F1;
+    font-size: 14px;   
+    text-decoration: none;
+}
+
+footer input{
+    background-color: #DFF2F1;
+    color: #353535;
+    font-size: 14px;   
+    border-radius: 5px;
+    padding: 2px;
+}
+

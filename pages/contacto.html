@@ -1,0 +1,225 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header class="containter"> 
+
+        <section class="row align-items-center">
+
+            <div class="col-3 offset-0" >
+                <a href="../index.html"> <img src="../imagenes/logo_diatoland.jpg" alt="logo" class="logo-diatoland"> </a> </h1> 
+            </div>
+
+            <div class="col offset-2">
+                <textarea cols="20" rows="1" id="search_nav" name="search-nav"></textarea>
+                <input type="submit" value="Buscar" class="boton_search">
+            </div>
+
+        </section>
+        
+
+        <nav class="containter">
+            <ul class="row">
+                <li class="col"> <a href="./productos.html"> Productos </a> </li>
+                <li class="col"> <a href="./aplicaciones.html"> Aplicaciones </a> </li>
+                <li class="col"> <a href="../index.html"> Información </a> </li>
+                <li class="col"> <a href="./pagos.html"> Pagos </a> </li>
+                <li class="col"> <a href="./envios.html"> Envíos </a> </li>
+                <li class="col"> <a href="./contacto.html"> Contacto </a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- --------------------------- -->
+
+    <main>
+        <h2>Contacto</h2>
+
+        <section>
+            <p class="info_wpp">
+            <img src="../imagenes/wpp.jpg" alt="whatsapp" class="icono_wpp">
+            Para realizar consultas, escribinos por Whatsapp al (cel) +54 011 - 82640501  ||  Días: Lunes a Sábados || Horarios: 10 a 20 horas
+            </p>
+        </section>
+
+        <!-- No se si esta bien meter la imagen dentro de un párrafo -->
+
+        <form class="formulario">
+
+            <section>
+                <p class="info_mail"> 
+                    <img src="../imagenes/mail.jpg" alt="email" class="icono_mail">  
+                    Para realizar un pedido, completá este formulario y te responderemos vía email dentro de las próximas 24 horas:
+                </p>
+            </section>
+
+            <section>
+                <h3 class="titulo-form">Productos y Cantidad</h3>
+
+                    <div class="dato-form">
+                        <label for="usuario"> Nombre Producto 1 </label>
+                        <select id= "contidad_producto" name = "cantidad-producto" class="selec">
+                            <option value="cantidad-0"> 0 </option>
+                            <option value="cantidad-1"> 1 </option>
+                            <option value="cantidad-2"> 2 </option>
+                            <option value="cantidad-3"> 3 </option>
+                    </select> 
+                    </div>
+
+                    <div class="dato-form">
+                        <label for="usuario"> Nombre Producto 1 </label>
+                        <select id= "contidad_producto" name = "cantidad-producto" class="selec">
+                            <option value="cantidad-0"> 0 </option>
+                            <option value="cantidad-1"> 1 </option>
+                            <option value="cantidad-2"> 2 </option>
+                            <option value="cantidad-3"> 3 </option>
+                    </select>
+                    </div>
+
+                    <div class="dato-form">
+                        <label for="usuario"> Nombre Producto 3 </label>
+                        <select id= "contidad_producto" name = "cantidad-producto" class="selec">
+                            <option value="cantidad-0"> 0 </option>
+                            <option value="cantidad-1"> 1 </option>
+                            <option value="cantidad-2"> 2 </option>
+                            <option value="cantidad-3"> 3 </option>
+                    </select>
+                    </div>
+
+                    <div class="dato-form">
+                        <label for="usuario"> Nombre Producto 4 </label>
+                        <select id= "contidad_producto" name = "cantidad-producto" class="selec">
+                            <option value="cantidad-0"> 0 </option>
+                            <option value="cantidad-1"> 1 </option>
+                            <option value="cantidad-2"> 2 </option>
+                            <option value="cantidad-3"> 3 </option>
+                    </select>
+                    </div>
+
+                    <div class="dato-form">
+                        <label for="usuario"> Nombre Producto 5 </label>
+                        <select id= "contidad_producto" name = "cantidad-producto" class="selec">
+                            <option value="cantidad-0"> 0 </option>
+                            <option value="cantidad-1"> 1 </option>
+                            <option value="cantidad-2"> 2 </option>
+                            <option value="cantidad-3"> 3 </option>
+                    </select>
+                    </div>
+            
+            </section>
+
+            <section>
+                <h3 class="titulo-form">Medio de Pago</h3>
+                    <div class="dato-form">
+                        <label for="pago-usuario"></label>
+                        <select id= "medio_pago" name = "medio-pago" class="selec">
+                            <option value="medio-1"> Mercado Pago </option>
+                            <option value="medio-2"> Transferencia Bancaria </option>
+                        </select>   
+                    </div>
+            </section>
+
+            <section>
+                <h3 class="titulo-form">Forma de Envío</h3>
+                    <div class="dato-form">
+                        <label for="envio-usuario"></label>
+                        <select id= "medio_envio" name = "medio-envio" class="selec">
+                            <option value="medio-1"> Correo Argentino </option>
+                            <option value="medio-2"> Retiro en punto de entrega - Las Cañitas</option>
+                        </select>   
+                    </div>    
+            </section>
+
+        </form>
+
+        <form class="formulario"> 
+            <section>
+                <h3 class="titulo-form">Datos de contacto y envío</h3>
+
+                <div class="dato-form">
+                    <label for="email-usuario"> Email </label>
+                    <input type="email" id="email_usuario" name="email-usuario" class="complet">
+
+                    <label for="celular-usuario"> Celular </label>
+                    <input type="tel" id="celular_usuario" name="celular-usuario" class="complet">
+                </div>
+
+                <div class="dato-form">
+                    <label for="nombre-usuario"> Nombre </label>
+                    <input type="text" id="nombre_usuario" name="nombre-usuario" class="complet">
+
+                    <label for="apellido-usuario"> Apellido </label>
+                    <input type="text" id="apellido_usuario" name="apellido-usuario" class="complet">
+                </div>
+            
+                <div class="dato-form">
+                    <label for="calle-usuario"> Calle </label>
+                    <textarea cols="24" rows="1" id="calle_usuario" name="calle-usuario" class="complet"> </textarea>
+
+                    <label for="numeración-usuario"> Numeración </label>
+                    <textarea cols="8" rows="1" id="numeración_usuario" name="numeración-usuario" class="complet"> </textarea>
+                </div>
+
+                <div class="dato-form">
+                    <label for="ciudad-usuario"> Ciudad </label>
+                    <textarea cols="16" rows="1" id="ciudad_usuario" name="ciudad-usuario" class="complet"> </textarea>
+
+                    <label for="provincia-usuario"> Provincia </label>
+                    <textarea cols="16" rows="1" id="provincia_usuario" name="provincia-usuario" class="complet"> </textarea>
+                </div>
+
+                <div class="dato-form">
+                    <label for="cp-usuario"> Código Postal </label>
+                    <textarea cols="16" rows="1" id="cp_usuario" name="cp-usuario" class="complet"> </textarea>
+
+                    <input type="submit" value="Enviar" class="boton_enviar">
+                </div>
+            </section>
+
+        </form>
+    </main>
+
+    <!-- --------------------------- -->
+
+    <footer class="container-fluid">
+        <section class="row">
+            <div class="col-2 offset-2 caja_footer">
+                <h3> <a href="../index.html" class="op_footer"> Quienes somos </a></h3>
+                <h3> <a href="../index.html" class="op_footer"> Preguntas frecuentes </a></h3>
+                <h3> <a href="./aplicaciones.html" class="op_footer"> Aplicaciones </a></h3>
+            </div>
+
+            <div class="col-2 caja_footer">
+                <h3> <a href="./pagos.html" class="op_footer"> Medios de pago </a></h3>
+                <h3> <a href="./envios.html" class="op_footer"> Formas de envío </a></h3>
+                <h3> <a href="./envios.html" class="op_footer"> Puntos de entrega </a></h3>
+            </div>
+
+            <div class="col-2 caja_footer">
+                <h3> <a href="./contacto.html" class="op_footer"> Contacto </a></h3>
+                <h3> <a href="./contacto.html" class="op_footer"> Venta por mayor </a></h3>
+            </div>
+
+            <div class="col-2 caja_footer">
+                <h3 class="op_footer">Redes</h3>
+                <input type="submit" value="Pinterest">
+                <input type="submit" value="Twitter">
+                <input type="submit" value="Instagram">
+                <input type="submit" value="Facebook">
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
+    
